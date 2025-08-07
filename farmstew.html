@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>FARMSTEW Ethiopia Gimbichu Area Community</title>
+        <style>
+         img 
+         {
+max-width: 100%; /* Make image responsive */
+height: 75%; /* Maintain aspect ratio */
+border-radius: 14px; /* Rounded corners */
+box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+opacity: 0.9; /* Slightly transparent */
+}
+ strong {
+color: #4e72d4;
+font-weight: normal;
+font-style: italic;
+}
+            h1 
+            {
+color: #717f8a;
+font-family: Arial, sans-serif;height:7;
+font-size: 0.9em; /* 2.0 times the default font size */
+font-weight: bold;
+text-align: center;
+text-transform: uppercase; 
+
+/* Spacing and layout */
+margin-top: 6px;
+margin-bottom: 6px;
+padding: 10px; /* Padding around the text */
+
+/* Background and borders */
+background-color: #f0f0f0; 
+border-bottom: 2px solid #ccc;
+border-radius: 5px;
+
+/* Other properties */
+letter-spacing: 1.0px; /* Spacing between letters */
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+h2
+            {
+color: #733e2d;
+font-family: Arial, sans-serif;height:8;
+font-size: 0.9em; /* 0. times the default font size */
+font-weight: bold;
+text-align: center;
+text-transform: uppercase; 
+
+/* Spacing and layout */
+margin-top: 10px;
+margin-bottom: 4px;
+padding: 6px; /* Padding around the text */
+
+/* Background and borders */
+background-color: #f0f0f0; 
+border-bottom: 2px solid #ccc;
+border-radius: 5px;
+
+/* Other properties */
+letter-spacing: 1.2px; /* Spacing between letters */
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+h3
+            {
+color: #733e2d;
+font-family: Arial, sans-serif;height:6;
+font-size: 0.80em; /* 0.65 times the default font size */
+font-weight: bold;
+text-align: center;
+text-transform: uppercase; 
+
+/* Spacing and layout */
+margin-top: 10px;
+margin-bottom: 4px;
+padding: 6px; /* Padding around the text */
+
+/* Background and borders */
+background-color: #f0f0f0; 
+border-bottom: 2px solid #ccc;
+border-radius: 5px;
+
+/* Other properties */
+letter-spacing: 1.2px; /* Spacing between letters */
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+h4
+            {
+color: #733e2d;
+font-family: Arial, sans-serif;height:6;
+font-size: 0.70em; /* 0.60 times the default font size */
+font-weight: bold;
+text-align: center;
+text-transform: uppercase; 
+
+/* Spacing and layout */
+margin-top: 10px;
+margin-bottom: 4px;
+padding: 6px; /* Padding around the text */
+
+/* Background and borders */
+background-color: #f0f0f0; 
+border-bottom: 2px solid #ccc;
+border-radius: 5px;
+
+/* Other properties */
+letter-spacing: 1.2px; /* Spacing between letters */
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+h5
+            {
+color: #657873;
+font-family: Arial, sans-serif;height:6;
+font-size: 0.65em;
+font-weight: bold;
+text-align: center;
+margin-top: 10px;
+margin-bottom: 4px;
+padding: 6px; /* Padding around the text */
+
+/* Background and borders */
+background-color: #f0f0f0; 
+border-bottom: 2px solid #ccc;
+border-radius: 5px;
+
+/* Other properties */
+letter-spacing: 1.2px; /* Spacing between letters */
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+p {
+color: #333; /* Sets text color to dark gray */
+font-family: Arial, sans-serif; /* Sets font family */
+font-size: 13px; /* Sets font size */
+line-height: 1.2; /* Sets line height for readability */
+margin-bottom: 1em; /* Adds space below each paragraph */
+margin-top: 1em;
+}
+label {
+font-family: Arial, sans-serif;
+font-size: 12px;
+color: #333;
+margin-bottom: 5px; /* Add space below the label */
+display: block; /* Make it a block-level element for better spacing control */
+}
+
+/* Styling a specific label using a class */
+.required-label {
+color: red;
+font-weight: bold;
+}
+
+/* Styling a label associated with a specific input ID */
+label[for="username"] {
+text-transform: uppercase;
+}
+
+legend {
+font-size: 0.7em;
+font-weight: bold;
+color: #333;
+background-color: #f0f0f0;
+padding: 5px 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+margin-bottom: 10px; /* Add space below the legend */
+}
+
+fieldset {
+border: 1px solid #ddd;
+padding: 10px;
+margin-bottom: 20px;
+}
+
+textarea {
+font-family: Arial, sans-serif;
+font-size: 12px;
+color: #333;
+width: 100%;
+height: 150px; 
+border-color: dodgerblue;
+}
+
+.submit-button {
+    background-color: white;
+    float: right;
+    border-color: rgb(41, 118, 211);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(41, 118, 211);
+    padding: 5px;
+margin-bottom: 20px;
+    height: 36px;
+    width: 85px;
+    border-radius: 2px;
+    cursor: pointer;
+
+    transition: background-color 0.15s,
+      color 0.15s;
+  }
+
+  .submit-button:hover {
+    background-color: rgb(50, 118, 200);
+    color: white;
+  }
+
+  .submit-button:active {
+    opacity: 0.7;
+  }
+
+}
+  </style>
+        <body>
+        <a href="https://images.app.goo.gl/71LBWh5QsGvmDAFo7" target="_blank">
+      <img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/Sample project - Acme/img/IMG_20250807_021157_314.jpg">
+    </a>
+      
+            <h1>
+      FARMSTEW ETHIOPIA GIMBICHU AREA COMMUNITY.
+            </h1>
+            <h2>INTRODUCTION ABOUT THE COMMINITY</h2>
+            <p>
+       The community is established in <strong>July, 2024(Hamile,2016)</strong> after being well trained by <strong>FARMSTEW</strong>  Ethiopia which is being lead by Parousia Ministry ,Ethiopia.The members of the community have deep knowledge on: modern farming, positive attitude, how to take rest, how to feed themeselves and their family, general sanitation ,temperance, enterprise  and the use of water(including water treatments). Currently the Community members are working on general trade and on modern farmig to be financially developed. But in near future the community is planning to give the tranning for other people who need to 
+  get knowledge. Beside this, the members (except some)are well trained to treat the sick who are suffering different kinds of disease naturally by using <strong>simple herbs</strong> these God have given for the sake his children.
+            </p>
+            <h2>THE COMMUNITY'S  MISSION, VISION & GOAL</h2>
+<p>Our community is driven by a clear mission to deliver innovative and sustainable solutions that improve lives and create lasting value for our customers and communities. Guided by our vision to be a global leader in our community, we strive to inspire trust, foster growth, and set new standards of excellence. Our primary goal is to continuously enhance the quality of life and services while embracing integrity, innovation, and customer satisfaction at every step. Through collaboration, commitment, and forward-thinking strategies, we aim to shape a better future for all the people.
+</p>
+            <h3>
+                The Community's Mission
+            </h3>
+            <p>
+                The Community's mission is to train families to break free from extreme poverty so they can experience the abundant life offered by Jesus.This can be done by improving health and wellbeing of rural areas.
+            </p>
+            <h3>The Community's Vision</h3>
+            <p>
+      The Community's vision is inspired by Jesus' desire that all <strong>“may have life and have it more abundantly”</strong>      
+            </p>
+            <h3>
+         The Community's Goals    
+            </h3>
+            <p>
+     The Community's goal is for mothers and fathers to develop the capacity to transform their family's lives and their communities, offering a hopeful witness to the world that points to the True Source of abundant life. Jesus offers this life in John 10:10, saying, <strong>“I have come that they may have life and that they may have it more abundantly.”</strong>      
+            </p>
+            <h4>The Departmental Division in the Community.</h4>
+<p>For the sake of community's goal and for the fair distribution of work load, the total work of the community is divided into 7(seven) wings.These are:-The Spritual cases wing, Development wing, Health and healing wing, Charity cases wing, Social affairs wing, Song related cases wing and Media, Communication and technology wing. In these seven groups the full members are grouped and working actively.</p>
+<section class="department-spritual">
+<h5>Spritual Cases Department</h5>
+<p>This department will adjust programs for: prayer, outreach and for Bible study. And in full members seminars and conferances that can include other people it is the department's responsibility to adjust everything(including who is going to give service).
+    </p>
+<legend>Members List Under Spritual Cases Department</legend>
+<label for="members">Members:</label>
+<select id="members"name="members">
+    <option selected value="demeke">Demeke Talore</option>
+    <option value ="degafe">Degafe Gainemo</option>
+    <option value ="abera">Abera Tamirat</option>
+    <option value ="marta">Marta Desalegn</option>
+    <option value ="adena">Adena Markos</option>
+    <option value ="Elias">Elias Daniel</option>
+    <option value ="zenabech">Zenabech Desalegn</option>
+    <option value ="destaye">Destaye Daniel</option>
+    <option value ="genet">Genet Abayineh</option>
+    <option value ="eliass">Elias Tagesse</option>
+</select>
+</section>
+
+<section class="department-Financial">
+<h5>Financial Development Department</h5>
+<p>Since there will be no movements without money, the department is the backbone of the community. So it is the  responsibility of this department to gather market information, to create business chains and to bring new ideas of business to run.</p>
+<legend>Members List Under  Financial Development Department</legend>
+<label for="members">Members:</label>
+<select id="members"name="members">
+    <option selected value ="selamnesh">Selamnesh Desalegn</option>
+    <option value="eyob">Eyob Mathew</option>
+    <option value="tesfaye">Tesfaye Desalegn</option>
+    <option value="mim">Mim Samuel</option>
+    <option value="genet">Genet Abayineh</option>
+    <option value="dentebo">Dantebo Markos</option>
+    <option value="tesfayee">Tesfaye Erkado</option>
+    <option value="petros">Petros Desalegn</option>
+    <option value="demekee">Demeke Talore</option>
+    <option value="girma">Girma Samuel</option>
+    <option value="akililu">Akililu Tamirat</option>
+    
+    </select>
+</section>
+
+<section class="department-social">
+<h5>Social Cases Department</h5>
+<p>The responsibility of this department is to deal about social cases that will happen in the community members. Finally the department conclude on the cases by supporting the on the community manual. Then will bring to members to announce how to participate on the case. </p>
+<legend>Members List Under  Social Cases Department</legend>
+<label for="members">Members:</label>
+<select id="members"name="members">
+    <option selected value ="ermias">Ermias Abebe</option>
+    <option value ="eliasss">Elias Yohanis</option>
+    <option value ="sara">Sara Alemu</option>
+    <option value ="lukas">Lukas Mugore</option>
+    <option value ="tsehayy">Tsehay Beyene</option>
+    <option value ="masalech">Maselech Digebo</option>
+    <option value ="petross">Petros Desalegn</option> 
+    </select>
+</section>
+<section class="department-health">
+<h5>Health and Healing Department</h5>
+<p>The main aim of this department is teaching the surrounding community on what the disease is, how will someone be affected by disease(reason of being sick), and how can he/she treat the case in home by simple remedies.The department is also resiponsible health expos at community confrences.This can be done by communicating with the committee of the <strong>FARMSTEW</strong> Community.</p>
+<legend>Members List Under  Health and healing Department</legend>
+<label for="members">Members:</label>
+<select id="members"name="members">
+    <option selected value ="denebe">Denebe Sifa</option>
+    <option value="admesu">Admesu Tagesse</option>
+    <option value="eyobee">Eyob Mathew</option>
+    <option value="hiwot">Hiwot Paulos</option>
+    <option value="eyasu">Eyasu Gabire</option>
+    <option value="geneteee">Genet Abayineh</option>
+    <option value="tsehay">Tsehay Beyene</option>
+    </select>
+</section>
+
+<section class="department-communication">
+<h5>Media,Communication &Technology Department</h5>
+<p>This department will work together with the Financial Development  department to increase the finance of the community. But developing the finance of the community is not the only target this department. But controlling the social media of the community, media Gospel outreaches and bringing new technology idea to the community are also the department's responsibility.</p>
+<legend>Members List Under   Media, Communication and Technology Department</legend>
+<label for="members">Members:</label>
+<select id="members"name="members">
+  <option selected value="denebee">Denebe Sifa</option>
+  <option value ="abenezer">Abenezer Mathew</option>
+  <option value ="eliasa">Elias Daniel</option>
+  <option value ="daniel">Daniel Shanko</option>
+  <option value ="tesfa">Tesfssemay Detebo</option>
+  <option value ="tekele">Tekele Haydemo</option>
+  
+</select>
+</section>
+
+<section class="department-music">
+<h5>Music Department</h5>
+<p>The department is resposible controlling music concened issues in the community and full community meetings(including who is to sing song). For best result the department should work with Spritual cases department.</p>
+</section>
+<section class="department-music">
+
+<legend>Members List Under   Music Department</legend>
+<label for="members">Members:</label>
+<select id="members"name="members">
+    <option selected value ="ermiass">Ermias Abebe</option>
+    <option value ="aberaa">Abera Tamirat</option>
+    <option value ="marta">Marta Desalegn</option>
+    <option value ="genette">Genet Tagesse</option>
+    <option value ="degafee">Degafe Gainemo</option>
+    <option value ="tesfaa">Tesfasemay Detebo</option>
+    <option value ="eliaas">Elias Yohanis</option>
+    <option value ="adeena">Adena Bekele</option>
+    <option value ="tesfaay">Tesfaye Desalegn</option>
+
+</select>
+</section>
+
+<section class="department-charity">
+<h5>Charity Department</h5>
+<p>The resposiblity this department is to search who is in needy and deal on the case insightful. Then bring to the community committee so as to deal about budget(if the cases' decision passed by this department is going to touch the community's account).</p>
+<legend>Members List Under   Charity Department</legend>
+<label for="members">Members:</label>
+<select id="members"name="members">
+<option selected value="admaasu">Admesu Tagesse</option>
+<option value="deemeke">Demeke Talore</option>
+<option value="delalegn">Delalegn Abebe</option>
+<option value="daaniel">Daniel Shanko</option>
+<option value="aberra">Abera Tamirat</option>
+<option value="teke">Tekele Haydemo</option>
+<option value="selamu">Selamu Sifa</option>
+<option value="zekarias">Zekarias Tagesse</option>
+<option value="tesfaya">Tesfaye Erkado</option>
+</select>
+</section>
+
+            <label for="comments">Feedback Section</label>
+            <p>Before commenting Please fill the following personal information form</p>
+            <label for="Full name">Name (required):</label>
+            <input type="text"id="full-name"Full-name="full-name"size="20"placeholder="Landabo Gadabo"required>
+            <label for="email">Email address(required):</label>
+            <input type="email"name="email"id="email"placeholder="example@gmail.com"required>
+            <label for="age">Age(optional):</label>
+            <input type="number"id="age"name="age"min="12"max="100">
+            <label for ="country">Country of Residency:</label>
+            <input type="text"id="country"name="country"min="2"max="20">
+           <legend>Are you Gimbichu Area FARMSTEW Community member?</legend>
+           <label for="yes-option">Yes</label>
+           <input type="radio"id="yes-option"
+      name="member">
+      <label for="no-option">No</label>     
+            <input type="radio"id="no-option"name="member"><br>
+   <label for="religion">Religion:</label>
+            <select id="religion"name="religion">
+<option value="protestant">Protestant</option>
+            <option value="atheist">Atheist</option>
+            <option value="adventist">Adventist</option>
+            <option selected value ="musilim">Musilim</option>
+            <option value ="prefer not to say">Prefer not to say</option>
+            </select>
+            <textarea id="comments"rows="10"cols="24"max="240"placeholder="comment here if any"></textarea>
+            <button class="submit-button"required >Submit</button><br>
+            <legend>Contact the author of this page:</legend>
+
+<a href="kingdagas777777@gmail.com">kingdagas777777@gmail.com</a><br />
+
+<a href="tel:+251916344039">+251916344039</a>
+
+        </body>
+    </head>
+</html>
